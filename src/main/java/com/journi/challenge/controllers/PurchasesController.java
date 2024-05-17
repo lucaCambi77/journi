@@ -4,14 +4,13 @@ import com.journi.challenge.models.Purchase;
 import com.journi.challenge.models.PurchaseRequest;
 import com.journi.challenge.models.PurchaseStats;
 import com.journi.challenge.repositories.PurchasesRepository;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import javax.inject.Inject;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.inject.Inject;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 @RestController
 public class PurchasesController {

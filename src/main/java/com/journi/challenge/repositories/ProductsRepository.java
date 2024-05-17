@@ -2,12 +2,11 @@ package com.journi.challenge.repositories;
 
 import com.journi.challenge.CurrencyConverter;
 import com.journi.challenge.models.Product;
-
-import javax.inject.Named;
-import javax.inject.Singleton;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import javax.inject.Named;
+import javax.inject.Singleton;
 
 @Named
 @Singleton

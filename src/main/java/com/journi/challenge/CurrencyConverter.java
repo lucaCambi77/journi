@@ -2,7 +2,6 @@ package com.journi.challenge;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Iterator;
